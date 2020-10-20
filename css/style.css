@@ -77,8 +77,8 @@ footer{
     /*Your code here.*/
     /*Don't forget to vertically and horizontally alight the card*/
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -90,6 +90,7 @@ footer{
   /*Your code here.*/
   /*Take a look at flex-basis*/
   flex-basis: 400px;
+  
 }
 
 .card > header{
@@ -135,6 +136,10 @@ footer{
 .gallery{
   min-height: 600px;
   /*Your code here again.*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .gallery > img{
@@ -149,14 +154,16 @@ header{
   border-bottom: 3px solid #50C7C7;
   /*Your  code here again.*/
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .nav_links{
   /*Your code here again.*/
   display: flex;
   flex-direction: column; 
+  flex-wrap: warp;
 }
 
 .nav_item a{
@@ -176,6 +183,7 @@ header{
   /* Cards! */
   .card {
     /*Your  code here again.*/
+    flex-basis: 225px;
   }
 
   .card_big{
