@@ -150,6 +150,7 @@ header{
   /*Your  code here again.*/
   display: flex;
   flex-direction: center;
+  align-items: center;
 
 }
 
