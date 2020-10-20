@@ -79,7 +79,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-
+    
 }
 
 .card {
@@ -97,6 +97,7 @@ footer{
   border: 2px solid #45ADAD;
   padding: 20px 0;
   border-radius: 7px 7px 0 0;
+  flex-direction: center;
 }
 
 .card > ul{
