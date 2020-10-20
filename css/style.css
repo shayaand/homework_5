@@ -67,7 +67,7 @@ footer{
 
 #logo{
    /*Your code here.*/
-  animation-name: logo-wiggle;
+  animation-name: logo_wiggle;
   animation-duration: 15s;
 }
 
@@ -79,7 +79,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
 }
 
 .card {
@@ -89,7 +89,7 @@ footer{
   padding: 0 0 50px 0;
   /*Your code here.*/
   /*Take a look at flex-basis*/
-
+  flex-basis: 400px;
 }
 
 .card > header{
@@ -151,11 +151,12 @@ header{
   display: flex;
   flex-direction: center;
   align-items: center;
-
 }
 
 .nav_links{
   /*Your code here again.*/
+  display: flex;
+  flex-direction: column; 
 }
 
 .nav_item a{
