@@ -84,11 +84,11 @@ footer{
 
 .card {
   margin: 12px;
-  background: #fff;
-  border-radius: 7px;
+  background: #ffff;
+  border-radius: 7px; 
   padding: 0 0 50px 0;
   /*Your code here.*/
-  /*Take a look at flex-basis*/
+  /*Take a look at 4is*/
   flex-basis: 400px;
   
 }
@@ -194,10 +194,14 @@ header{
   /* Navbar */
   header{
     /*Your code here again.*/  
+    flex-direction: row;
+    justify-content: space-between;
+
   }
 
   .nav_links{
     /*Your code here again.*/  
+    flex-direction: row;
   }
 
   .nav_item a{
@@ -209,9 +213,30 @@ header{
   .card {
     flex-basis: 200px;
   }
+ 
   /*Your code here again.*/
   /*You will want four selectors*/  
+  body {
+    background-image: none;
+  }
+  .pricing {
+    display: flex;
+  }
+  header {
+    flex-basis: 225px; 
+  }
+  .gallery {
+    display: none;
+  }
+  h2#gallery {
+    display: none;
+  }
 }
 
 /*Your code here again.*/ 
 /*Add media query to handle reduced-motion*/
+  @media (prefers-reduced-motion: reduce) {
+    #logo {
+      animation: none;
+    }
+  }
