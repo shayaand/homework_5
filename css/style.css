@@ -229,9 +229,9 @@ header{
   .gallery {
     display: none;
   }
-  h2, #gallery {
+  h2, .gallery {
     display: none;
-  
+  }
 }
 
 /*Your code here again.*/ 
