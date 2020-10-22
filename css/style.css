@@ -221,6 +221,7 @@ header{
   }
   .pricing {
     display: flex;
+    align-items: flex-start;
   }
   header {
     flex-basis: 225px; 
